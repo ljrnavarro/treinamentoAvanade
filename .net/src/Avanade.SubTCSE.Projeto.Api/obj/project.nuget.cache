@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jwss6OPZDVpRZxE3kaLF05YNqtk5uCJ2IB5Z5dXxQpBqrUn+f8T/JUXQCt/HvRqchpZBknOt9iO9qZ8213AD0Q==",
+  "dgSpecHash": "5CQKm8PAbQNIxKLpW7DCHnUf1q3C/3vdTLncVwut+1r0JYDkReb4EQneoIr94MUSkdL8N5pvuUwN8FixtifhsA==",
   "success": true,
-  "projectFilePath": "C:\\CursosTreinamentos\\treinamentoAvanade\\.net\\src\\Avanade.SubTCSE.Projeto\\Avanade.SubTCSE.Projeto.Api\\Avanade.SubTCSE.Projeto.Api.csproj",
+  "projectFilePath": "C:\\CursosTreinamentos\\treinamentoAvanade\\.net\\src\\Avanade.SubTCSE.Projeto.Api\\Avanade.SubTCSE.Projeto.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512"
   ],
