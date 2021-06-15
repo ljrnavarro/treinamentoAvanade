@@ -28,7 +28,19 @@
         return arr
       }
 
-      console.log(multiply(1, 2, 3, 4, 5))
+      object1 = {
+        name: "object1"
+      };
+
+      object2 = {
+        color: "red"
+      };
+
+      joinObjects = [...[{object1}], ...[{object2}]];
+
+      console.log("objects", joinObjects);
+
+    // console.log(multiply(1, 2, 3, 4, 5))
     </script>
   </body>
 </html>
