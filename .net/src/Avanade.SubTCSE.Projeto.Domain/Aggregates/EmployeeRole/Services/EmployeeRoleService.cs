@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Services;
+using System;
 
 namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services
 {
-    class EmployeeRoleService
+    public class EmployeeRoleService : IEmployeeRoleService
     {
+        void IEmployeeRoleService.AddEmployeeRole(Entities.EmployeeRole employeeRole)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
