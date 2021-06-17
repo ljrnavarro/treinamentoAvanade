@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result" class="format-output"></div>
+        <script>
+        var d2 = new Date('March 11, 2005 02:30:00');
+         console.log(d2.getDate())
+         console.log(d2.getUTCDate())
+         console.log(d2.getMonth())
+         console.log(d2.toISOString())
+         console.log(d2.toDateString())
+         console.log(d2.toLocaleDateString())
+         console.log(d2.toLocaleString())
+         console.log("json", d2.toJSON())
+         console.log(d2.toTimeString())
+
+         var elem = ["green","red","yellow", "purple", "orange", "white"]
+         var e1 = elem[elem.length - 1]
+         var e2 = elem.unshift(e1)
+         var e3 = elem.push("black")
+
+         elem.forEach(function (item, i, arr){
+             if (item.length === 5)
+              console.log(item, i);
+         });
+
+         console.log("le", arr)
+
+
+        var a = 13, b = 43, c = 39, d = undefined;
+        if (b && c)
+        {
+           d = (b + c) % (++a - 4)
+           
+        } 
+        else
+        {
+            var f = c-- - --b;
+            if (f%2 == 0)
+             document.getElementById("result").innerHTML = 'sucess!' + f;
+        }
+        document.getElementById("result").innerHTML = d;
+    </script>
+</body>
+</html>
