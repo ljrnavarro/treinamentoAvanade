@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="result" class="format-output"></div>
+    <script>
+          var count = 0;
+
+          function main(){
+              try{
+                  --count;
+                  console.log('0',count)
+                  walkThroug();
+              }
+              catch(e){
+                  count++;
+              }
+              finally{
+                  count++;
+              }
+          }
+
+          function walkThroug(){
+              try{
+                  var obj = {}
+                  if(obj){
+                    count++;
+                    console.log('1',count)
+                  }
+                  else{
+                      let test = "This is a testing string";
+                      if (test.indexOf('is') === 2)
+                        count++;
+                      else{
+                         throw new Error("Error");
+                      }
+                  }
+              }
+              catch(e){
+                  count--;
+              }
+              finally{
+                  count++;
+                  console.log('2',count)
+              }
+      }
+
+      main();
+      console.log(`Count: ${count}`);
+    </script>
+  </body>
+</html>
