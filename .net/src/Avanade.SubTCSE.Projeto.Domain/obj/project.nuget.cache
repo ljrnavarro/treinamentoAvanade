@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+rDO2ZyTZRBa4ouIdeju8s+CQVQs783PMPdlk0W/e/f01R1+CK2wLTyfYHQ90/IU/ehhdFVKQkIaRbkcRXBXMw==",
+  "dgSpecHash": "m6hXvHaHWAoVkSjQjiGWUr+aqf1BkkhXATUEOQ676L4BzkUiChTTslLnWhTxAoGLUFlbPNE0ufVWRsrM2dM8pQ==",
   "success": true,
   "projectFilePath": "C:\\CursosTreinamentos\\treinamentoAvanade\\.net\\src\\Avanade.SubTCSE.Projeto.Domain\\Avanade.SubTCSE.Projeto.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

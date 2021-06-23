@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iymsW8GtYh8qPfMmyL0tTpBce5uH1gpwSrd3CO/AVBuucBxgKn7GmnR9Uf1ciZZLGJUzKKJESzPQuyrCzRydtw==",
+  "dgSpecHash": "vYVoub5bnfGk6XF2JEBhwdCwlCq9/gvK6cGrsFMh2FAo+XDuCuQZo7sRGYMm+bwVdiXpSu5QKC3mIJNWVmtX3w==",
   "success": true,
   "projectFilePath": "C:\\CursosTreinamentos\\treinamentoAvanade\\.net\\src\\Avanade.SubTCSE.Projeto.Application\\Avanade.SubTCSE.Projeto.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],

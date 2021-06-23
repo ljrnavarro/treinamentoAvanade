@@ -1,0 +1,15 @@
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.deps.json
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\bin\Debug\net5.0\ref\Avanade.SubTCSE.Projeto.Application.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.csproj.AssemblyReference.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.AssemblyInfoInputs.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.AssemblyInfo.cs
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.csproj.CoreCompileInputs.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.csproj.CopyComplete
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\ref\Avanade.SubTCSE.Projeto.Application.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Application\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Application.pdb

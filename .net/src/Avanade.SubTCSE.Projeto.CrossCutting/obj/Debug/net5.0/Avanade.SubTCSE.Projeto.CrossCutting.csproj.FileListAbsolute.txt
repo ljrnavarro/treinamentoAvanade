@@ -1,0 +1,11 @@
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.deps.json
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\bin\Debug\net5.0\ref\Avanade.SubTCSE.Projeto.CrossCutting.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.AssemblyInfoInputs.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.AssemblyInfo.cs
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.csproj.CoreCompileInputs.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\ref\Avanade.SubTCSE.Projeto.CrossCutting.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.pdb

@@ -1,0 +1,11 @@
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\bin\Debug\net5.0\Avanade.SubTCSE.Data.deps.json
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\bin\Debug\net5.0\Avanade.SubTCSE.Data.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\bin\Debug\net5.0\ref\Avanade.SubTCSE.Data.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\bin\Debug\net5.0\Avanade.SubTCSE.Data.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.AssemblyInfoInputs.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.AssemblyInfo.cs
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.csproj.CoreCompileInputs.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\ref\Avanade.SubTCSE.Data.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.pdb
