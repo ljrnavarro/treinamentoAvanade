@@ -37,4 +37,3 @@ C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\ob
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.pdb
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.genruntimeconfig.cache
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.csproj.CopyComplete
-C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.csproj.AssemblyReference.cache
