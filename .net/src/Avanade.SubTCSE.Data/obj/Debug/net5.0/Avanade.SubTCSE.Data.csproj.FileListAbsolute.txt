@@ -9,3 +9,7 @@ C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\ref\Avanade.SubTCSE.Data.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.csproj.AssemblyReference.cache
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Data\obj\Debug\net5.0\Avanade.SubTCSE.Data.csproj.CopyComplete

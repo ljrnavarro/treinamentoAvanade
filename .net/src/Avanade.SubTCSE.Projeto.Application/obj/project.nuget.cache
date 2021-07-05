@@ -1,13 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "vYVoub5bnfGk6XF2JEBhwdCwlCq9/gvK6cGrsFMh2FAo+XDuCuQZo7sRGYMm+bwVdiXpSu5QKC3mIJNWVmtX3w==",
+  "dgSpecHash": "rnvpovbeoR35Xyt78syIpX5AWQD9gBMZqdgDMbq6XGChjrlcHRBiwOSzqIGQf3Moq9JKbWZ5cctMIsASHThUEA==",
   "success": true,
   "projectFilePath": "C:\\CursosTreinamentos\\treinamentoAvanade\\.net\\src\\Avanade.SubTCSE.Projeto.Application\\Avanade.SubTCSE.Projeto.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\mongodb.bson\\2.13.0-beta1\\mongodb.bson.2.13.0-beta1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\mongodb.driver\\2.13.0-beta1\\mongodb.driver.2.13.0-beta1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\mongodb.driver.core\\2.13.0-beta1\\mongodb.driver.core.2.13.0-beta1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.1\\mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

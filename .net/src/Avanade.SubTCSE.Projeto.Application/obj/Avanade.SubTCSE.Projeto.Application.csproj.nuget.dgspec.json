@@ -121,6 +121,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[10.2.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.13.0-beta1, )"
             }
           },
           "imports": [
