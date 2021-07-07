@@ -8,6 +8,6 @@ namespace Avanade.SubTCSE.Projeto.Domain.Base.Repository
     {
         Task<TEntity> Add(TEntity entity);
 
-        Task<TEntity> Find(Tid Id);
+        Task<TEntity> FindById(Tid Id);
     }
 }
