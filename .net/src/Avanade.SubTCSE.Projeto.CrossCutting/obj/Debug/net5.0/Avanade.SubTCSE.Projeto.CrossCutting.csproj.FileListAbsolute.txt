@@ -9,4 +9,3 @@ C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossC
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\ref\Avanade.SubTCSE.Projeto.CrossCutting.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.pdb
-C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.CrossCutting\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.csproj.AssemblyReference.cache
