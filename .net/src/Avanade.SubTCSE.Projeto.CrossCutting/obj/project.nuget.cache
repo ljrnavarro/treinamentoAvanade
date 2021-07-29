@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lnwHUHYXE1W8Gpw7n2WwAUU5Z8R2r7gmmLCrV4HCx9sGWGdAxufNCvQiwQzhAwuvgtNs8BS133KA0A5iDSy8Qw==",
+  "dgSpecHash": "qr87CnZtsmkRprbHoI+HNVFFXjKxVuEvmMMw/LWlANl/DQj7bRFdxAtByeOX+cmD0pKtDq0A35Kv8ZH7chqiVw==",
   "success": true,
   "projectFilePath": "C:\\CursosTreinamentos\\treinamentoAvanade\\.net\\src\\Avanade.SubTCSE.Projeto.CrossCutting\\Avanade.SubTCSE.Projeto.CrossCutting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\luiz.silva.junior\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("68899adb-6176-41ae-bcc5-3f9be272939e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avanade.SubTCSE.Projeto.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

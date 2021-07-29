@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //underfined , null
+      if (b === undefined)
+        console.log('b is not declared , but is undefined');
+
+       var b = 3;
+
+       var myvar = "my value";
+
+       function exec(){
+           console.log(myvar);
+       }
+
+       exec();
+
+       (function() {
+          console.log('myvar =', myvar);
+          var myvar = "local value";
+       })();
+
+
+
+      var var1;
+      var var2 = null;
+      var x = 10;
+
+      console.log(1 + var1);
+      console.log(1 + var2);
+      if (var2 == 'null')
+       console.log('null')
+
+
+      if (var1 == undefined)
+       console.log('undefined');
+      else
+       console.log('não undefined');
+
+      if (true)
+      {
+       let x = 5;
+       console.log(x)
+      }
+
+       console.log(x)
+
+
+       //constantes
+       const c1 = 12;
+
+       function alterConst(){
+           c1 = 32
+       };
+
+       alterConst();
+
+    </script>
+</body>
+</html>

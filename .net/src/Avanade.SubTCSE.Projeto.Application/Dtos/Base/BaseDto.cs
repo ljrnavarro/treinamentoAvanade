@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentValidation.Results;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,7 @@ namespace Avanade.SubTCSE.Projeto.Application.Dtos.Base
     public abstract class BaseDto
     {
         public int Identificador { get; set; }
+
+        public ValidationResult validationResult { get; set; }
     }
 }
