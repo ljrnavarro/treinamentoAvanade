@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.10.0.0",
+        "fileVersion": "3.10.0-4.21269.26 (02984771)",
+        "semanticVersion": "3.10.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Domain/Aggregates/Employee/Services/EmployeeService.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 46,
+                  "endLine": 9,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Campo \"EmployeeRoleService._validator\" nunca é atribuído e sempre terá seu valor padrão null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Domain/Aggregates/EmployeeRole/Services/EmployeeRoleService.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 60,
+                  "endLine": 11,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Campo \"EmployeeRoleService._employeeRoleRepository\" nunca é atribuído e sempre terá seu valor padrão null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Domain/Aggregates/EmployeeRole/Services/EmployeeRoleService.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 50,
+                  "endLine": 13,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "S3459",
+          "level": "warning",
+          "message": "Remove unassigned field '_validator', or set its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Domain/Aggregates/EmployeeRole/Services/EmployeeRoleService.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 60,
+                  "endLine": 11,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3459",
+          "level": "warning",
+          "message": "Remove unassigned field '_employeeRoleRepository', or set its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Domain/Aggregates/EmployeeRole/Services/EmployeeRoleService.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 50,
+                  "endLine": 13,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0649": {
+          "id": "CS0649",
+          "shortDescription": "O campo nunca é atribuído e sempre terá seu valor padrão",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0649)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "O método assíncrono não possui operadores 'await' e será executado de forma síncrona",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S3459": {
+          "id": "S3459",
+          "shortDescription": "Unassigned members should be removed",
+          "fullDescription": "Fields and auto-properties that are never assigned to hold the default values for their types. They are either pointless code or, more likely, mistakes.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3459",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -11,13 +11,13 @@ namespace Avanade.SubTCSE.Data.Repositories.Base
     {
         private readonly IMongoCollection<TEntity> _collection;
         
-        public virtual async Task<TEntity> Add(TEntity entity)
+        public virtual async Task<TEntity> AddAsync(TEntity entity)
         {
             await _collection.InsertOneAsync(entity);
             return entity;
         }
 
-        public virtual async Task<TEntity> FindById(Tid Id)
+        public virtual async Task<TEntity> FindByIdAsync(Tid Id)
         {
             throw new System.NotImplementedException();
         }

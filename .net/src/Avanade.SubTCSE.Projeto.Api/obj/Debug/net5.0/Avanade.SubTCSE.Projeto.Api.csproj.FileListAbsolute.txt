@@ -49,3 +49,6 @@ C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\ob
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.genruntimeconfig.cache
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\Avanade.SubTCSE.Projeto.CrossCutting.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\Avanade.SubTCSE.Data.dll
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\Avanade.SubTCSE.Data.pdb

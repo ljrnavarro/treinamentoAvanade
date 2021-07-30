@@ -8,10 +8,10 @@ namespace Avanade.SubTCSE.Data.Repositories.EmployeeRole
     public class EmployeeRoleRepository : BaseRepository<Projeto.Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, string>
         , IEmployeeRoleRepository
     {
-        public override Task<Projeto.Domain.Aggregates.EmployeeRole.Entities.EmployeeRole> Add(Projeto.Domain.Aggregates.EmployeeRole.Entities.EmployeeRole entity)
+        public override Task<Projeto.Domain.Aggregates.EmployeeRole.Entities.EmployeeRole> AddAsync(Projeto.Domain.Aggregates.EmployeeRole.Entities.EmployeeRole entity)
         {
             //fazer qq coisa
-            return base.Add(entity);
+            return base.AddAsync(entity);
         }
     }
 

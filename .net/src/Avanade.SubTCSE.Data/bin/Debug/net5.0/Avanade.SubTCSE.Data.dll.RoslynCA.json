@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.10.0.0",
+        "fileVersion": "3.10.0-4.21269.26 (02984771)",
+        "semanticVersion": "3.10.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Data/Repositories/Base/BaseRepository.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 44,
+                  "endLine": 20,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Campo \"BaseRepository<TEntity, Tid>._collection\" nunca é atribuído e sempre terá seu valor padrão null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Data/Repositories/Base/BaseRepository.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 52,
+                  "endLine": 12,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "S3459",
+          "level": "warning",
+          "message": "Remove unassigned field '_collection', or set its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Data/Repositories/Base/BaseRepository.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 52,
+                  "endLine": 12,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1185",
+          "level": "warning",
+          "message": "Remove this method 'Add' to simply inherit its behavior.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Data/Repositories/EmployeeRole/EmployeeRoleRepository.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 9,
+                  "endLine": 15,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0649": {
+          "id": "CS0649",
+          "shortDescription": "O campo nunca é atribuído e sempre terá seu valor padrão",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0649)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "O método assíncrono não possui operadores 'await' e será executado de forma síncrona",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1185": {
+          "id": "S1185",
+          "shortDescription": "Overriding members should do more than simply call the same member in the base class",
+          "fullDescription": "Overriding a method just to call the same method from the base class without performing any other actions is useless and misleading. The only time this is justified is in sealed overriding methods, where the effect is to lock in the parent class behavior. This rule ignores overrides of Equals and GetHashCode.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1185",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3459": {
+          "id": "S3459",
+          "shortDescription": "Unassigned members should be removed",
+          "fullDescription": "Fields and auto-properties that are never assigned to hold the default values for their types. They are either pointless code or, more likely, mistakes.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3459",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

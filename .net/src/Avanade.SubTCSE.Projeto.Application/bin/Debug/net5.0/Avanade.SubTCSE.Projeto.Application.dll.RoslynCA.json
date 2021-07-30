@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.10.0.0",
+        "fileVersion": "3.10.0-4.21269.26 (02984771)",
+        "semanticVersion": "3.10.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Campo \"EmployeeRoleAppService._mapper\" nunca é atribuído e sempre terá seu valor padrão null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Application/Services/EmployeeRole/EmployeeRoleAppService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 34,
+                  "endLine": 12,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Campo \"EmployeeRoleAppService._employeeRoleService\" nunca é atribuído e sempre terá seu valor padrão null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Application/Services/EmployeeRole/EmployeeRoleAppService.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 47,
+                  "endLine": 14,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "S3459",
+          "level": "warning",
+          "message": "Remove unassigned field '_mapper', or set its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Application/Services/EmployeeRole/EmployeeRoleAppService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 34,
+                  "endLine": 12,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3459",
+          "level": "warning",
+          "message": "Remove unassigned field '_employeeRoleService', or set its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/CursosTreinamentos/treinamentoAvanade/.net/src/Avanade.SubTCSE.Projeto.Application/Services/EmployeeRole/EmployeeRoleAppService.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 47,
+                  "endLine": 14,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0649": {
+          "id": "CS0649",
+          "shortDescription": "O campo nunca é atribuído e sempre terá seu valor padrão",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0649)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S3459": {
+          "id": "S3459",
+          "shortDescription": "Unassigned members should be removed",
+          "fullDescription": "Fields and auto-properties that are never assigned to hold the default values for their types. They are either pointless code or, more likely, mistakes.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3459",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
