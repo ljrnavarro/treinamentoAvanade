@@ -130,7 +130,6 @@
           "Microsoft.Extensions.Configuration.KeyPerFile": "5.0.0.0",
           "Microsoft.Extensions.Configuration.UserSecrets": "5.0.0.0",
           "Microsoft.Extensions.Configuration.Xml": "5.0.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions.Reference": "5.0.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "5.0.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "5.0.0.0",
@@ -348,7 +347,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.1": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.6.21352.12",
           "Microsoft.Extensions.Options": "3.0.0"
         },
         "runtime": {
@@ -410,10 +409,20 @@
       },
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
-      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.6.21352.12": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.35212"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
       "Microsoft.Extensions.Options/3.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.6.21352.12",
           "Microsoft.Extensions.Primitives": "3.0.0"
         }
       },
@@ -430,7 +439,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "MongoDB.Bson/2.13.0-beta1": {
+      "MongoDB.Bson/2.13.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
@@ -444,10 +453,10 @@
           "lib/netstandard2.1/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.13.0-beta1": {
+      "MongoDB.Driver/2.13.0": {
         "dependencies": {
-          "MongoDB.Bson": "2.13.0-beta1",
-          "MongoDB.Driver.Core": "2.13.0-beta1",
+          "MongoDB.Bson": "2.13.0",
+          "MongoDB.Driver.Core": "2.13.0",
           "MongoDB.Libmongocrypt": "1.2.1"
         },
         "runtime": {
@@ -460,10 +469,10 @@
           "lib/netstandard2.1/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.13.0-beta1": {
+      "MongoDB.Driver.Core/2.13.0": {
         "dependencies": {
           "DnsClient": "1.4.0",
-          "MongoDB.Bson": "2.13.0-beta1",
+          "MongoDB.Bson": "2.13.0",
           "MongoDB.Libmongocrypt": "1.2.1",
           "SharpCompress": "0.23.0",
           "System.Buffers": "4.5.1"
@@ -621,7 +630,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Avanade.SubTCSE.Data": "1.0.0",
           "Avanade.SubTCSE.Projeto.Application": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.6.21352.12"
         },
         "runtime": {
           "Avanade.SubTCSE.Projeto.CrossCutting.dll": {}
@@ -633,7 +642,7 @@
       "Avanade.SubTCSE.Projeto.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "10.2.3",
-          "MongoDB.Driver": "2.13.0-beta1"
+          "MongoDB.Driver": "2.13.0"
         },
         "runtime": {
           "Avanade.SubTCSE.Projeto.Domain.dll": {}
@@ -1185,12 +1194,6 @@
       "Microsoft.Extensions.Configuration.Xml/5.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Configuration.Xml.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions.Reference/5.0.0.0": {
-        "compile": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "compileOnly": true
       },
@@ -2404,12 +2407,12 @@
       "path": "microsoft.extensions.apidescription.server/3.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.6.21352.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+      "sha512": "sha512-XJnSVApCh1iOY2TXYMu2B6KfILZSUKD7uskoGZVwxMP2XH6/6igSWLU2bi3BqoH8fxHUe58o8QpMKCXoG4SXBg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-preview.6.21352.12",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.6.21352.12.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/3.0.0": {
       "type": "package",
@@ -2439,26 +2442,26 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "MongoDB.Bson/2.13.0-beta1": {
+    "MongoDB.Bson/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-K8n8AQUCNuoFADBd/sDn7DwHPQM+bBEHpPZdp1HOFTjL+YaeC4hHCA0Y5TihTwbhKMfKdPgYFLHcIYuET19tNw==",
-      "path": "mongodb.bson/2.13.0-beta1",
-      "hashPath": "mongodb.bson.2.13.0-beta1.nupkg.sha512"
+      "sha512": "sha512-voNakTxq2NV3n5lM+HpJXcd4UgLk7dtkzaPyqHMDtiBqKJauqFJ0XQIM6l9v2LTqP/GPiDCxf3XCTJHphxamZA==",
+      "path": "mongodb.bson/2.13.0",
+      "hashPath": "mongodb.bson.2.13.0.nupkg.sha512"
     },
-    "MongoDB.Driver/2.13.0-beta1": {
+    "MongoDB.Driver/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zwb6k7Jx+cmqZU+413McZjgJWgqy/IXua1B6vNLFcT6BXmxooCpSXuWTJEEa4zeHX0OjTJZzZuQlPbR6QvfXzA==",
-      "path": "mongodb.driver/2.13.0-beta1",
-      "hashPath": "mongodb.driver.2.13.0-beta1.nupkg.sha512"
+      "sha512": "sha512-LCnK43X32QklSCgNMHZ4B+wT5Y7TJjWkXRVPRdxlwhdmS+OT4n/nO7wc6cLZaLdtpbBQHrDvQj0DdEl0VAtAMQ==",
+      "path": "mongodb.driver/2.13.0",
+      "hashPath": "mongodb.driver.2.13.0.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.13.0-beta1": {
+    "MongoDB.Driver.Core/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8QtnAYxr6vjqonveLPIqPQ32pvF9m62HAMKQQKmiHzG5O9leAYIFIna9/uk8YnXZ+/3vhu3nQOwSiQCOQm1VnQ==",
-      "path": "mongodb.driver.core/2.13.0-beta1",
-      "hashPath": "mongodb.driver.core.2.13.0-beta1.nupkg.sha512"
+      "sha512": "sha512-bPt4U/LSKQgZV1yZ5Llv4LxmTlpm8ej2lENDj/Ttc+OS/7i9pqxIEkECjJCl576vODfexcFOtU+1+eiImBVxhQ==",
+      "path": "mongodb.driver.core/2.13.0",
+      "hashPath": "mongodb.driver.core.2.13.0.nupkg.sha512"
     },
     "MongoDB.Libmongocrypt/1.2.1": {
       "type": "package",
@@ -3001,11 +3004,6 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Configuration.Xml/5.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

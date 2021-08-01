@@ -11,7 +11,13 @@ namespace Avanade.SubTCSE.Projeto.Application.Services.EmployeeRole
     {
         private readonly IMapper _mapper;
 
-        private readonly IEmployeeRoleService _employeeRoleService; 
+        private readonly IEmployeeRoleService _employeeRoleService;
+
+        public EmployeeRoleAppService(IMapper mapper, IEmployeeRoleService employeeRoleService)
+        {
+            _mapper = mapper;
+            _employeeRoleService = employeeRoleService;
+        }
 
         public async Task<EmployeeRoleDto> AddEmployeeRoleAsync(EmployeeRoleDto employeeRoleDto)
         {

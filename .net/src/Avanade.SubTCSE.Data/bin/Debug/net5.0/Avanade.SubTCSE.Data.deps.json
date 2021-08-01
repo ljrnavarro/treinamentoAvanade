@@ -31,7 +31,7 @@
         }
       },
       "Microsoft.NETCore.Platforms/2.1.2": {},
-      "MongoDB.Bson/2.13.0-beta1": {
+      "MongoDB.Bson/2.13.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
@@ -42,10 +42,10 @@
           }
         }
       },
-      "MongoDB.Driver/2.13.0-beta1": {
+      "MongoDB.Driver/2.13.0": {
         "dependencies": {
-          "MongoDB.Bson": "2.13.0-beta1",
-          "MongoDB.Driver.Core": "2.13.0-beta1",
+          "MongoDB.Bson": "2.13.0",
+          "MongoDB.Driver.Core": "2.13.0",
           "MongoDB.Libmongocrypt": "1.2.1"
         },
         "runtime": {
@@ -55,10 +55,10 @@
           }
         }
       },
-      "MongoDB.Driver.Core/2.13.0-beta1": {
+      "MongoDB.Driver.Core/2.13.0": {
         "dependencies": {
           "DnsClient": "1.4.0",
-          "MongoDB.Bson": "2.13.0-beta1",
+          "MongoDB.Bson": "2.13.0",
           "MongoDB.Libmongocrypt": "1.2.1",
           "SharpCompress": "0.23.0",
           "System.Buffers": "4.5.1"
@@ -134,7 +134,7 @@
       "Avanade.SubTCSE.Projeto.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "10.2.3",
-          "MongoDB.Driver": "2.13.0-beta1"
+          "MongoDB.Driver": "2.13.0"
         },
         "runtime": {
           "Avanade.SubTCSE.Projeto.Domain.dll": {}
@@ -169,26 +169,26 @@
       "path": "microsoft.netcore.platforms/2.1.2",
       "hashPath": "microsoft.netcore.platforms.2.1.2.nupkg.sha512"
     },
-    "MongoDB.Bson/2.13.0-beta1": {
+    "MongoDB.Bson/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-K8n8AQUCNuoFADBd/sDn7DwHPQM+bBEHpPZdp1HOFTjL+YaeC4hHCA0Y5TihTwbhKMfKdPgYFLHcIYuET19tNw==",
-      "path": "mongodb.bson/2.13.0-beta1",
-      "hashPath": "mongodb.bson.2.13.0-beta1.nupkg.sha512"
+      "sha512": "sha512-voNakTxq2NV3n5lM+HpJXcd4UgLk7dtkzaPyqHMDtiBqKJauqFJ0XQIM6l9v2LTqP/GPiDCxf3XCTJHphxamZA==",
+      "path": "mongodb.bson/2.13.0",
+      "hashPath": "mongodb.bson.2.13.0.nupkg.sha512"
     },
-    "MongoDB.Driver/2.13.0-beta1": {
+    "MongoDB.Driver/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zwb6k7Jx+cmqZU+413McZjgJWgqy/IXua1B6vNLFcT6BXmxooCpSXuWTJEEa4zeHX0OjTJZzZuQlPbR6QvfXzA==",
-      "path": "mongodb.driver/2.13.0-beta1",
-      "hashPath": "mongodb.driver.2.13.0-beta1.nupkg.sha512"
+      "sha512": "sha512-LCnK43X32QklSCgNMHZ4B+wT5Y7TJjWkXRVPRdxlwhdmS+OT4n/nO7wc6cLZaLdtpbBQHrDvQj0DdEl0VAtAMQ==",
+      "path": "mongodb.driver/2.13.0",
+      "hashPath": "mongodb.driver.2.13.0.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.13.0-beta1": {
+    "MongoDB.Driver.Core/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8QtnAYxr6vjqonveLPIqPQ32pvF9m62HAMKQQKmiHzG5O9leAYIFIna9/uk8YnXZ+/3vhu3nQOwSiQCOQm1VnQ==",
-      "path": "mongodb.driver.core/2.13.0-beta1",
-      "hashPath": "mongodb.driver.core.2.13.0-beta1.nupkg.sha512"
+      "sha512": "sha512-bPt4U/LSKQgZV1yZ5Llv4LxmTlpm8ej2lENDj/Ttc+OS/7i9pqxIEkECjJCl576vODfexcFOtU+1+eiImBVxhQ==",
+      "path": "mongodb.driver.core/2.13.0",
+      "hashPath": "mongodb.driver.core.2.13.0.nupkg.sha512"
     },
     "MongoDB.Libmongocrypt/1.2.1": {
       "type": "package",

@@ -1,5 +1,7 @@
-﻿using Avanade.SubTCSE.Projeto.Domain.Aggregates;
+﻿using Avanade.SubTCSE.Data.Repositories.Base.MongoDB;
+using Avanade.SubTCSE.Projeto.Domain.Aggregates;
 using Avanade.SubTCSE.Projeto.Domain.Base.Repository;
+using Avanade.SubTCSE.Projeto.Domain.Base.Repository.MongoDB;
 using MongoDB.Driver;
 using System.Threading.Tasks;
 
@@ -10,7 +12,12 @@ namespace Avanade.SubTCSE.Data.Repositories.Base
 
     {
         private readonly IMongoCollection<TEntity> _collection;
-        
+
+        protected BaseRepository(IMongoDBContext mongoDBContext, string collectionName)
+        {
+            _collection = mongoDBContext.GetCollection<TEntity>(collectionName);
+        }
+
         public virtual async Task<TEntity> AddAsync(TEntity entity)
         {
             await _collection.InsertOneAsync(entity);

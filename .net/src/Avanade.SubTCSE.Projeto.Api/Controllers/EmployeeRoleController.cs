@@ -3,6 +3,7 @@ using Avanade.SubTCSE.Projeto.Application.Interfaces.EmployeeRole;
 using Avanade.SubTCSE.Projeto.Application.Services.EmployeeRole;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Net.Mime;
 using System.Threading.Tasks;
 
@@ -35,8 +36,7 @@ namespace Avanade.SubTCSE.Projeto.Api.Controllers
             {
                 BadRequest(string.Join('\n', item.validationResult.Errors));
             }
-            
             return Ok();
-        }
+            }
     }
 }
