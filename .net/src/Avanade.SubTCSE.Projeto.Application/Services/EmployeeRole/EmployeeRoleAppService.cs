@@ -28,7 +28,7 @@ namespace Avanade.SubTCSE.Projeto.Application.Services.EmployeeRole
             var item = await _employeeRoleService.AddEmployeeRoleAsync(itemDomain);
 
             //mepear
-            var itemDto = _mapper.Map< Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, EmployeeRoleDto>(item);
+            var itemDto = _mapper.Map<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, EmployeeRoleDto>(item);
 
             //devolver
             return itemDto;
