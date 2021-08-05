@@ -61,19 +61,11 @@ namespace Avanade.SubTCSE.Data.Repositories.Base
 
         public virtual async Task<TEntity> UpdateAsync(TEntity entity)
         {
-            var roleName = entity.ToBsonDocument().GetValue("rolename").ToString();
+            var roleUpdate = Builders<TEntity>.Filter.Eq("_id", entity.Id);
 
-            var guiId = entity.ToBsonDocument().GetValue("_id").ToString();
+            var resultado = await _collection.ReplaceOneAsync(roleUpdate, entity);
 
-            //Guid guidId = Guid.Parse(guiId);
-
-            var roleUpdate = Builders<TEntity>.Filter.Eq("_id", guiId);
-
-            var update = Builders<TEntity>.Update.Set("rolename", roleName);
-
-            var resultado = _collection.UpdateOneAsync(roleUpdate, update);
-
-            if (resultado.IsCompleted)
+            if (resultado.IsAcknowledged)
                 return await this.FindByIdAsync(entity.Id);
             else
                 return null;

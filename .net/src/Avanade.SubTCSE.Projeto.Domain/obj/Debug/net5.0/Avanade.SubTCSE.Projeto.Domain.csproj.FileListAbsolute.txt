@@ -9,3 +9,4 @@ C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Domain
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Domain\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Domain\obj\Debug\net5.0\ref\Avanade.SubTCSE.Projeto.Domain.dll
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Domain\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.pdb
+C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Domain\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.csproj.AssemblyReference.cache

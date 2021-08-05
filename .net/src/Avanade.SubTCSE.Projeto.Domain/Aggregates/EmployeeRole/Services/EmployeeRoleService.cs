@@ -95,15 +95,26 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services
 
         public async Task<Entities.EmployeeRole> UpdateEmployeeRoleAsync(Entities.EmployeeRole employeeRole)
         {
-            var validated = await _validator.ValidateAsync(employeeRole, opt =>
-            {
-                opt.IncludeRuleSets("update");
-            });
+            var existEmployeeRole = await this.GetByIdAsync(employeeRole.Id);
 
-            employeeRole.validationResult = validated;
-
-            if (!employeeRole.validationResult.IsValid)
+            if (existEmployeeRole != null)
             {
+                var validated = await _validator.ValidateAsync(employeeRole, opt =>
+                {
+                    opt.IncludeRuleSets("update");
+                });
+
+                employeeRole.validationResult = validated;
+
+                if (!employeeRole.validationResult.IsValid)
+                {
+                    return employeeRole;
+                }
+            }
+            else
+            {
+                employeeRole.validationResult = new FluentValidation.Results.ValidationResult();
+                employeeRole.validationResult.Errors.Add(new FluentValidation.Results.ValidationFailure(null, "Role não existe."));
                 return employeeRole;
             }
 
