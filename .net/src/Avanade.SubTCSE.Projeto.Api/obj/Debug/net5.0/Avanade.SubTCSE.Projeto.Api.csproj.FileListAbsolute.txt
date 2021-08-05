@@ -3,7 +3,6 @@ C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\ob
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.AssemblyInfoInputs.cache
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.AssemblyInfo.cs
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.csproj.CoreCompileInputs.cache
-C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\appsettings.Development.json
 C:\CursosTreinamentos\treinamentoAvanade\.net\src\Avanade.SubTCSE.Projeto.Api\bin\Debug\net5.0\appsettings.json
