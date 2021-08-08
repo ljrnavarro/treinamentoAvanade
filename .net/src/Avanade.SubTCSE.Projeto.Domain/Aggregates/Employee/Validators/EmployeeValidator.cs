@@ -17,8 +17,10 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.Employee.Validators
                 .NotEmpty()
                 .WithMessage("{PropertyName} can not be empty");
 
-                RuleFor(e => e.EmployeeRole)
-                .SetValidator(new EmployeeRoleValidator());
+                RuleFor(e => e)
+                .NotNull()
+                .WithMessage("Employee can not be empty");
+
             });
         }
     }
